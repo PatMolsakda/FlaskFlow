@@ -13,5 +13,8 @@ Push code → Run Tests → Build Docker Image → Push to ECR → Deploy to EC2
 - AWS ECR (Container Registry)
 - AWS EC2 (Deployment Server)
 
+## Live Demo
+App running at: http://3.105.229.47:5000
+
 ## Architecture
 ![Architecture](Architecture.png)
