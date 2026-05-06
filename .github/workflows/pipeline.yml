@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 jobs:
-  # ---- JOB 1: Test ----
+  #JOB 1: Test
   test:
     name: Run Tests
     runs-on: ubuntu-latest
@@ -26,7 +26,7 @@ jobs:
       - name: Run tests
         run: pytest test_app.py -v
 
-  # ---- JOB 2: Build & Push to ECR ----
+  #JOB 2: Build & Push to ECR
   build:
     name: Build & Push Docker Image
     runs-on: ubuntu-latest
@@ -67,7 +67,7 @@ jobs:
           name: image-name
           path: image-name.txt
 
-  # ---- JOB 3: Deploy to EC2 ----
+  #JOB 3: Deploy to EC2
   deploy:
     name: Deploy to EC2
     runs-on: ubuntu-latest

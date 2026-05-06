@@ -1,4 +1,4 @@
-# Flask CI/CD Pipeline 🚀
+# Flask CI/CD Pipeline
 
 Automated CI/CD pipeline for a Python Flask application using 
 GitHub Actions, Docker, AWS ECR, and AWS EC2.
